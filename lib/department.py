@@ -110,12 +110,3 @@ class Department:
 
     def __repr__(self):
         return f"<Department {self.id}: {self.name}, {self.location}>"
-
-# Department.drop_table()
-# Department.create_table()
-# department1 = Department.create(
-#             "Human Resources", "Building C, East Wing")
-# department2 = Department.create(
-#             "Sales and Marketing", "Building B, 4th Floor")
-# department2.delete()
-# ipdb.set_trace()
